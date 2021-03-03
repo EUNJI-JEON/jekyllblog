@@ -1,0 +1,44 @@
+---
+layout: post
+title: Don’t learn machine learning
+---
+
+Disclaimer: The following is based on my observations of machine learning teams — not an academic survey of the industry. For context, I’m a contributor to Cortex, an open source platform for deploying models in production.
+If you’re a developer, you probably have at least a passing interest in machine learning. The concept of algorithms that can teach themselves to make predictions is just kind of… cool.
+However, if you do decide to study ML and follow the canonical recommendations for getting started, there’s a decent chance you’ll spend two weeks learning linear algebra and multivariable calculus before giving up.
+The reason for this is that most introductory material for machine learning isn’t geared towards developers, it’s geared to ML researchers—and this is an issue for developers who just want to build products with machine learning.
+Do you want to build products, or do research?
+Prior to the late 2000s, machine learning was more or less exclusively a research problem. There simply weren’t many companies using machine learning in production in a meaningful way.
+As such, a lot of the introductory material available for machine learning approaches it from this research perspective. It begins by explaining neural networks from a mathematical perspective, explaining all of the theory behind ML, things like back propagation and adversarial networks.
+Even non-university affiliated material follows this pattern to some extent. For example, this is taken directly from TensorFlow’s “Quickstart for Beginners”:
+If you think I’m cherrypicking confusing language, I invite you to read the whole thing.
+If you’re already familiar with the math behind machine learning, or you’re excited about learning it, this approach will work for you. If, however, you primarily want to build things with machine learning, this may not be exactly what you’re looking for.
+To use programming as a corollary, this approach is like learning to write code by first learning assembly. Virtually no developer learns like this.
+Note: If you somehow did learn to code in assembly, I accept your angry comments, and am impressed that you got a browser to install on whatever obscure Linux distro you’re running.
+When you learned to code, you likely did so by writing hello world in a high-level language. Then, as you introduced little bits of complexity to your projects, you learned more and more lower-level programming as needed.
+This learning pattern is successful among people who build software because it prioritizes building things—and if you’re more interested in building a recommendation engine than publishing a paper, this is how you should approach learning ML.
+How to learn ML by building software
+If you’re the type of person who learns best by taking courses, the best resource, and probably the most vocal advocate for this top-down, learn-by-doing approach to ML, is fastai’s Practical Deep Learning For Coders course.
+This article’s goal isn’t to be a giant advert for fastai, but suffice to say, its founders (Jeremy Howard and Rachel Thomas) have put together several courses that teach developers deep learning by having them actually build things, diving into the underlying theory as it pertains to the projects being built. To get a sense for their teaching style, check out this talk from Rachel Thomas:
+Alternatively, if you’re the sort of person who learns best by diving in and building things on your own, getting started with machine learning is the same as any other niche of programming. Pick a project that sounds interesting to you—I’ve put together a giant list of beginner-friendly NLP projects here—and jump in.
+A good approach for getting familiar with what it’s like to build with ML, assuming you learn this way, would be to:
+Identify a goal, like building a text auto-completer or a license plate identifier.
+Find a pre-trained model that fits your project—GPT-2 or YOLOv3 would work for the previously mentioned projects, respectively.
+If you’re feeling fancy, you can even use a library like gpt-2-simple to fine tune (customize to your own data) your model.
+Finally, deploy your model as a microservice.
+Once you have a model deployed as an API, you can query it like you would any other web service and build your application around it.
+You can actually see a real world application of this process in this project, created by a solo engineer dabbling in ML:
+With this approach, you can learn about the different popular model architectures and approaches to machine learning, and what applications they’re suited for. Just as importantly, you’ll learn about ML infrastructure, which is vital to building real products out of models.
+Once you can build with machine learning, then learn the theory
+If you’re an engineer, you’ve probably implemented some form of authentication before, which means you’ve (hopefully) hashed passwords.
+When you set up your password hashing, did you write a custom hashing algorithm? Did you spend weeks studying cryptography? Or did you just use bcrypt?
+Similarly, when you built your first web application, did you spend weeks learning about databases? Did you write your own from scratch? Or did you use whatever ORM came with your favorite framework?
+This same logic applies to machine learning as well. If you’re the sort of person who likes to build software, start by building software with machine learning, and let tools, pre-trained models, and ML frameworks abstract away the underlying ML theory. Then, if you’re curious or if your project demands more complexity, dig deeper under the hood to see how it all works.
+Caleb Kaiser
+ML infrastructure (https://github.com/cortexlabs/cortex) Formerly at AngelList. Originally a Cadillac.
+
+Follow
+5.9K
+
+
+24

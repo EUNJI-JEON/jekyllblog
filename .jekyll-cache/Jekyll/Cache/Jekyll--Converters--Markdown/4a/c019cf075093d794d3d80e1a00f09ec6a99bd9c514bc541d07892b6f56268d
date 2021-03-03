@@ -1,0 +1,44 @@
+I"<p>가상환경을 설치할 디렉토리로 이동해서 가상환경 설치</p>
+
+<p>$python3 -m venv vBlog</p>
+
+<p>만든 가상환경 활성화</p>
+
+<p>$source /가상환경 디렉토리(해당 폴더 경로 복사하고 붙여넣으면 됨)/bin/activate</p>
+
+<p>가상환경 안에 장고 설치</p>
+
+<p>(vBlog) $ pip3 install django</p>
+
+<p>패키지 설치</p>
+
+<p>태그 달기 기능에 필요한 패키지 설치</p>
+
+<p>(vBlog) pip3 install django-taggit</p>
+
+<p>(vBlog) pip3 install django-taggit-templatetags2</p>
+
+<p>폼 장식 패키지 설치</p>
+
+<p>(vBlog) pip3 install django-widget-tweaks</p>
+
+<p>이미지처리 패키지 설치</p>
+
+<p>((vBlog) pip3 install django-widget-tweaks</p>
+
+<p>타임존 관리하는 pytz 패키지 설치</p>
+
+<p>(vBlog) pip3 install pytz</p>
+
+<p>패키지 설치 툴 업그레이드</p>
+
+<p>(vBlog) pip3 install -U pip setuptools wheel</p>
+
+<p>InsecurePlatformWarning해결하기</p>
+
+<p>(vBlog) pip3 install pyopenssl ndg-httpsclient pyasn1</p>
+
+<p>가상환경 비활성화</p>
+
+<p>$deactivate</p>
+:ET

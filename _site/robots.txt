@@ -1,0 +1,4 @@
+User-Agent:*
+Allow: /
+
+Sitemap: https://angry-montalcini-6dc2b6.netlify.app/sitemap.xml

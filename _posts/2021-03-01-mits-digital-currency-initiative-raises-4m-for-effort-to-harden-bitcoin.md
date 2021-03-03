@@ -1,0 +1,32 @@
+---
+title: MIT’s Digital Currency Initiative Raises $4M for Effort to ‘Harden’ Bitcoin
+---
+
+Daniel Kuhn
+Mon, March 1, 2021, 1:19 AM·2 min read
+
+
+
+More content below
+
+
+More content below
+
+PART-USD
++6.49%
+
+BTC-USD
++7.43%
+The MIT Media Lab’s Digital Currency Initiative (DCI) is spinning up a multi-year effort dedicated to Bitcoin research and development. The program raised $4 million from prominent backers including CoinShares’ Meltem Demirors, Twitter’s Jack Dorsey and MicroStrategy’s Michael Saylor, among others, as well as corporate entities including Fidelity Digital Assets. It has made the long-term health of the Bitcoin protocol its key area of focus.
+
+Over the next four years, the Bitcoin Software and Security Effort will dedicate resources to Bitcoin Core development, the underlying codebase of the near-trillion-dollar network. MIT researchers will also investigate long-standing questions regarding Bitcoin’s core attributes, like how the stability of the network after the 21 million BTC mining subsidy runs out. 
+
+In its 12-year existence, Bitcoin has proved remarkably robust. The decentralized network has gone down just twice in its history – most recently in 2013. A core group of maintainers patch bugs, ship updates and generally oversee the protocol. This work is primarily funded on the patronage model, with corporations supporting the work of developers, or as a labor of love. 
+
+Related: Gab, Refuge for the Deplatformed, Hacked for 'Pretty Much Everything' Including Trump Data
+
+Part of the Media Lab’s mandate is to help steward this unofficial development process, thereby helping to “reduce bottlenecks in the development ecosystem which might lead to centralization.” 
+
+See also: Nic Carter – Bitcoin’s Patronage System Is an Unheralded Strength
+
+“As the use of Bitcoin grows, and as it becomes more deeply embedded into our societies, the security of the network must grow and strengthen alongside it. Yet, as a common good, there is no one single Bitcoin protector or guardian to take on this formidable task,” the group wrote in a statement.
