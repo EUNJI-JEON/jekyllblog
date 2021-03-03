@@ -16,11 +16,11 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "얼평"
+title                    : "주식 중독 테스트"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "rulemaker.j"
-description              : "An amazing website."
+description              : "일상이 주식으로 가득 찬 당신, 건강하게 투자하고 있나요? 당신의 솔직한 답변을 바탕으로 당신의 투자 건강 상태를 진단해드립니다."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -97,7 +97,7 @@ author:
   name             : "rulemaker.j"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "사업가&개발자"
-  location         : "https://www.facerating.site"
+  location         : "https://angry-montalcini-6dc2b6.netlify.app"
   email            :
   links:
     - label: "Email"
