@@ -97,15 +97,15 @@ author:
   name             : "rulemaker.j"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "사업가&개발자"
-  location         : "https://angry-montalcini-6dc2b6.netlify.app"
+  location         : 
   email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
+      url: "mailto:rulemaker.j@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
+      url: "https://angry-montalcini-6dc2b6.netlify.app"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
